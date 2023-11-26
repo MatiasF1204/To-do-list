@@ -1,0 +1,38 @@
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aviso{
+    margin: 0 30px 13px 30px;
+    padding: 12px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 243, 243);
+    border-radius: 10px;
+    color: black;
+    opacity: 0.9;
+}
+
+.inexiste{
+    margin: 0 30px 13px 30px;
+    padding: 12px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 243, 243);
+    border-radius: 10px;
+    color: black;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 500px) {
+    .aviso{
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .inexiste{
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
